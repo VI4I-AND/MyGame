@@ -1,0 +1,14 @@
+C:\Users\вичи\Desktop\game2\PacmanGame\bin\Debug\net9.0\PacmanGame.exe
+C:\Users\вичи\Desktop\game2\PacmanGame\bin\Debug\net9.0\PacmanGame.deps.json
+C:\Users\вичи\Desktop\game2\PacmanGame\bin\Debug\net9.0\PacmanGame.runtimeconfig.json
+C:\Users\вичи\Desktop\game2\PacmanGame\bin\Debug\net9.0\PacmanGame.dll
+C:\Users\вичи\Desktop\game2\PacmanGame\bin\Debug\net9.0\PacmanGame.pdb
+C:\Users\вичи\Desktop\game2\PacmanGame\obj\Debug\net9.0\PacmanGame.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\вичи\Desktop\game2\PacmanGame\obj\Debug\net9.0\PacmanGame.AssemblyInfoInputs.cache
+C:\Users\вичи\Desktop\game2\PacmanGame\obj\Debug\net9.0\PacmanGame.AssemblyInfo.cs
+C:\Users\вичи\Desktop\game2\PacmanGame\obj\Debug\net9.0\PacmanGame.csproj.CoreCompileInputs.cache
+C:\Users\вичи\Desktop\game2\PacmanGame\obj\Debug\net9.0\PacmanGame.dll
+C:\Users\вичи\Desktop\game2\PacmanGame\obj\Debug\net9.0\refint\PacmanGame.dll
+C:\Users\вичи\Desktop\game2\PacmanGame\obj\Debug\net9.0\PacmanGame.pdb
+C:\Users\вичи\Desktop\game2\PacmanGame\obj\Debug\net9.0\PacmanGame.genruntimeconfig.cache
+C:\Users\вичи\Desktop\game2\PacmanGame\obj\Debug\net9.0\ref\PacmanGame.dll

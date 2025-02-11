@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -11,6 +11,15 @@ namespace PacmanGame
             // Размер карты
             int width = 10;
             int height = 10;
+
+
+
+
+
+
+
+
+
 
             while (true)
             {
@@ -25,6 +34,15 @@ namespace PacmanGame
 
                 // Счетчик монеток
                 int coinCount = 0;
+
+
+
+
+
+
+
+
+
 
                 // Основной игровой цикл
                 while (true)
@@ -53,6 +71,15 @@ namespace PacmanGame
                         }
                     }
 
+
+
+
+
+
+
+
+
+
                     // Обработка ввода
                     ConsoleKeyInfo key = Console.ReadKey(true);
                     (int newX, int newY) = GetNewPosition(playerX, playerY, key.Key);
@@ -74,6 +101,15 @@ namespace PacmanGame
                 }
             }
         }
+
+
+
+
+
+
+
+
+
 
         // Функция создания лабиринта
         static char[,] CreateMaze(int width, int height)
@@ -99,6 +135,15 @@ namespace PacmanGame
             return maze;
         }
 
+
+
+
+
+
+
+
+
+
         // Функция проверки достижимости клетки
         static bool IsReachable(char[,] maze, int startX, int startY, int targetX, int targetY)
         {
@@ -119,6 +164,7 @@ namespace PacmanGame
                     return true;
                 }
 
+
                 (int, int)[] directions = { (-1, 0), (1, 0), (0, -1), (0, 1) };
                 foreach (var (dx, dy) in directions)
                 {
@@ -136,6 +182,14 @@ namespace PacmanGame
 
             return false;
         }
+
+
+
+
+
+
+
+
 
         // Функция генерации монеток
         static List<(int x, int y)> GenerateCoins(char[,] maze, int count, int playerX, int playerY)
@@ -156,6 +210,14 @@ namespace PacmanGame
 
             return coins;
         }
+
+
+
+
+
+
+
+
 
         // Функция отрисовки лабиринта
         static void DrawMaze(char[,] maze, int playerX, int playerY, List<(int x, int y)> coins)
@@ -180,6 +242,15 @@ namespace PacmanGame
                 Console.WriteLine();
             }
         }
+
+
+
+
+
+
+
+
+
 
         // Функция получения новой позиции игрока
         static (int, int) GetNewPosition(int x, int y, ConsoleKey key)
